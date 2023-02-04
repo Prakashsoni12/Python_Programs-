@@ -1,0 +1,43 @@
+import numpy as np
+
+arr = np.array([1,2,3,4,5,6])
+print(type(arr))
+print('------------------------------')
+print('|                            |')
+print('------------------------------')
+arr2d = np.array([[1,2,3], [4,5,6]])
+print(arr2d)
+print('------------------------------')
+print('|                            |')
+print('------------------------------')
+arr3 = np.zeros((2,3))
+print(arr3)
+print('------------------------------')
+print('|                            |')
+print('------------------------------')
+arr4 = np.identity(5)
+print(arr4)
+print('------------------------------')
+print('|                            |')
+print('------------------------------')
+arr5 = np.arange(10)
+print(arr5)
+print('------------------------------')
+print('|                            |')
+print('------------------------------')
+arr6 = np.linspace(10,20,10)
+print(arr6)
+print('------------------------------')
+print('|                            |')
+print('------------------------------')
+arr8 = arr6.copy()
+print(arr8)
+arr9 = arr6.shape
+print(arr9)
+ar10 = np.array([[[1,2],[3,4]],[[5,6],[7,8]]])
+print(ar10)
+print(ar10.ndim)
+print(ar10.size)#it provides total number of items present in array
+print(arr6.itemsize)#it provides size of data type int,float...
+print(arr6.dtype)#it provides data of array elements
+print(ar10.astype('float'))#with the astype function you can change datatype of elements by passing data name as arguments.
